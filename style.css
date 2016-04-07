@@ -1,0 +1,70 @@
+body{
+	background: #f3f3f3;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+input{
+	border-radius: 6px;
+	border-style: 
+}
+span{
+	font-weight:bold;
+}
+#header-img{
+	margin-left: 10%;
+	width: 30%;
+}
+#separator_line{
+	margin-top: -15px;
+	margin-bottom: 15px;
+	height: 10px;
+	background-image: url("image/separator_line.png"); 
+}
+#content{
+	margin-left: 25%;
+	margin-top: 5%; 
+	max-height: 460px;
+	max-width: 50%;
+	width: 50%;
+	background: #ffffff;
+	border-radius: 6px;
+}
+
+#user{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 15%;
+	font-size: 25px;
+}
+#user > label{
+	width: 25%;
+	text-align: right;
+}
+#user > input{
+	width: 60%;
+}
+#password{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 6%;
+	font-size: 25px;
+}
+#password > label{
+	width: 25%;
+	text-align: right;
+}
+#password > input{
+	width: 60%;
+}
+#button{
+	width: 50%;
+	height: 40px;
+	background-color: #2fc91f;
+	margin-top: 10%;
+	margin-left: 25%;
+	color: white;
+	/*font-weight:bold;*/
+	font-family: 微软雅黑;
+	border: 0px;
+	font-size: 25px;
+}

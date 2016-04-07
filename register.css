@@ -1,0 +1,222 @@
+body{
+	background: #f3f3f3;
+	margin: 0;
+	padding: 0;
+}
+input{
+	border-radius: 5px;
+	border-style: 
+}
+span{
+	font-weight:bold;
+}
+label{
+	font-weight: 15px;
+}
+.page-header{
+	margin-top: 1.5%;
+}
+#header-img{
+	margin-left: 10%;
+	width: 25%;
+}
+#separator_line{
+	margin-top: -15px;
+	margin-bottom: 15px;
+	height: 10px;
+	background-image: url("image/separator_line.png"); 
+}
+#content{
+	margin-left: 25%;
+	margin-top: 5%; 
+	max-height: 500px;
+	max-width: 50%;
+	width: 50%;
+	background: #ffffff;
+	border-radius: 6px;
+}
+#nickname{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 5%;
+	font-size: 15px;
+}
+#nickname > label{
+	width: 30%;
+	text-align: right;
+}
+#nickname > input{
+	width: 50%;
+}
+#gender{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+}
+#gender > label{
+	width: 30%;
+	text-align: right;
+}
+#gender2{
+	margin-left: 5%;
+}
+#phoneNum{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+}
+#phoneNum > label{
+	width: 30%;
+	text-align: right;
+}
+#phoneNum > input{
+	width: 50%;
+}
+#verificationCode{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#verificationCode > label{
+	width: 30%;
+	text-align: right;
+}
+#verify_input{
+	width: 25%;
+}
+#verify{
+	width: 24.5%;
+	background-color: red;
+	color: white;
+	/*font-weight:bold;*/
+	font-family: 微软雅黑;
+	border-color: red;
+	box-shadow: 0px 0px 0px 0px;
+
+}
+#identity{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#identity > label{
+	width: 30%;
+	text-align: right;
+}
+#identity > input{
+	width: 50%;
+}
+#bearthDay{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#bearthDay > label{
+	width: 30%;
+	text-align: right;
+}
+#bearthDay > input{
+	width: 50%;
+}
+#shop{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#shop > label{
+	width: 30%;
+	text-align: right;
+}
+#shop > select{
+	width: 25%;
+	border-radius: 5px;
+}
+#email{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#email > label{
+	width: 30%;
+	text-align: right;
+}
+#email > input{
+	width: 50%;
+}
+#area{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#area > label{
+	width: 30%;
+	text-align: right;
+}
+#area > select{
+	width: 16.1%;
+	border-radius: 5px;
+}
+#address{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#address > label{
+	width: 30%;
+	text-align: right;
+}
+#address > input{
+	width: 50%;
+}
+#postCode{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+	display: inline-block;	
+}
+#postCode > label{
+	width: 30%;
+	text-align: right;
+}
+#postCode > input{
+	width: 50%;
+}
+#contollorButton{
+	width: 100%;
+	margin-top: 6%;
+}
+#register_btn{
+	width: 22%;
+	height: 30px;
+	margin-left: 22%;
+	background-color: #2fc91f;
+	color: white;
+	font-family: 微软雅黑;
+	border:0px;
+}
+#reset_btn{
+	width: 22%;
+	height: 30px;
+	margin-left: 10%;
+	background-color: #2fc91f;
+	color: white;
+	font-family: 微软雅黑;
+	border:0px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新会员注册</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=no">
+	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+	<div class="page-header">
+		<img id="header-img" src="image/header-img1.png">
+	</div>
+	<div id="separator_line"></div>
+	<div id="content">
+		<div id="nickname">
+			<label>昵称：</label>
+			<input/>
+		</div>
+		<div id="gender">
+			<label><font style="color:red">*</font>性别：</label>
+			<input id="gender1" type="radio" name="gender_select" />男
+			<input id="gender2" type="radio" name="gender_select" />女
+		</div>
+		<div id="phoneNum">
+			<label>手机号：</label>
+			<input />
+		</div>
+		<div id="verificationCode">
+			<label>验证码：</label>
+			<input id="verify_input" />
+			<input type="button" id="verify" value="获取验证码" />
+		</div>
+		<div id="identity">
+			<label>身份证号：</label>
+			<input />
+		</div>
+		<div id="bearthDay">
+			<label>生日：</label>
+			<input size="16" type="text" value="" readonly class="form_datetime">
+			<!-- <select id="selYear"></select> 
+			<select id="selMonth"></select> 
+			<select id="selDay"></select>  -->
+		</div>
+		<div id="shop">
+			<label>所属门店：</label>
+			<select id="shopId"></select>
+		</div>
+		<div id="email">
+			<label>电子邮箱：</label>
+			<input />
+		</div>
+		<div id="area">
+			<label>所在地区：</label>
+			<select id="country"></select> 
+			<select id="city"></select> 
+			<select id="cityArea"></select> 
+		</div>
+		<div id="address">
+			<label>详细地址：</label>
+			<input />
+		</div>
+		<div id="postCode">
+			<label>邮政编码：</label>
+			<input />
+		</div>
+		<div id="contollorButton">
+			<input id="register_btn" type="button" value="立即注册" />
+			<input id="reset_btn" type="button"	value="重    置" />
+		</div>
+	</div>
+	
+
+	<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript">
+		$('#content').height($('#content').width()/965*1012);
+		console.log($('#content').height());
+		$(".form_datetime").datetimepicker({
+			minView: "month", //选择日期后，不会再跳转去选择时分秒 
+		　　format: "yyyy-mm-dd", //选择日期后，文本框显示的日期格式 
+		// 　　language: 'zh-CN', //汉化 
+		　　autoclose:true //选择日期后自动关闭 
+		})
+	</script>
+</body>
+</html>
