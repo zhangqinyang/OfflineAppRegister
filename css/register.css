@@ -24,7 +24,7 @@ label{
 	margin-top: -15px;
 	margin-bottom: 15px;
 	height: 10px;
-	background-image: url("image/separator_line.png"); 
+	background-image: url("../image/separator_line.png"); 
 }
 #content{
 	margin-left: 25%;
