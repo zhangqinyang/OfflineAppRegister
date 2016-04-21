@@ -74,6 +74,35 @@ label{
 #phoneNum > input{
 	width: 50%;
 }
+
+#password{
+	width: 100%;
+	/*margin-left: 8%;*/
+	padding-top: 1%;
+	font-size: 15px;
+}
+#password > label{
+	width: 30%;
+	text-align: right;
+}
+#password > input{
+	width: 50%;
+}
+
+#passwordConfirm{
+    width: 100%;
+    /*margin-left: 8%;*/
+    padding-top: 1%;
+    font-size: 15px;
+}
+#passwordConfirm > label{
+    width: 30%;
+    text-align: right;
+}
+#passwordConfirm > input{
+    width: 50%;
+}
+
 #verificationCode{
 	width: 100%;
 	/*margin-left: 8%;*/
