@@ -11,6 +11,16 @@ function getParameter(val) {
     return decodeURI(a[1]);
 }
 
+// get hash code
+function getHash(str){
+    var h= 0,off=0;
+    var len=str.length;
+    for(var i=0;i<len;i++){
+        h=31*h+str.charCodeAt(off++);
+    }
+    return h;
+}
+
 // MD5 code
 function md5(string){
     function md5_RotateLeft(lValue, iShiftBits) {
@@ -96,7 +106,7 @@ function md5(string){
         return WordToHexValue;
     };
     function md5_Utf8Encode(string){
-        string = string.replace(/\r\n/g,"\n");
+        //string = string.replace(/\r\n/g,"\n");
         var utftext = "";
         for (var n = 0; n < string.length; n++) {
             var c = string.charCodeAt(n);
